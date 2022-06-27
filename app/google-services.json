@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "932454674787",
+    "project_id": "renoapp-62f59",
+    "storage_bucket": "renoapp-62f59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932454674787:android:b2eb0e002e50daa2ef2356",
+        "android_client_info": {
+          "package_name": "com.example.renoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932454674787-knvfnagrpdj865joamrnn46skuokn5eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFG84szWk6QZwfSBIRVShd-wANfTuOHWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932454674787-knvfnagrpdj865joamrnn46skuokn5eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

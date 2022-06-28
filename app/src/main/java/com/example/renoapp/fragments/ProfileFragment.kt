@@ -144,7 +144,7 @@ class ProfileFragment : Fragment() {
 
     private fun userInfo()
     {
-        val userRef = FirebaseDatabase.getInstance().getReference().child("Users").child("profileId")
+        val userRef = FirebaseDatabase.getInstance().getReference().child("Users").child(profileId)
 
         userRef.addValueEventListener(object : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot)

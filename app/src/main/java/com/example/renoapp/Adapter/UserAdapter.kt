@@ -45,14 +45,14 @@ class UserAdapter (private var mContext: Context,
         checkFollowingStatus(user.getUid(), holder.follow_btn_search)
 
         //redirect to user profile page
-        holder.itemView.setOnClickListener { View.OnClickListener{
+        holder.itemView.setOnClickListener {
             val pref = mContext.getSharedPreferences("PREFS", Context.MODE_PRIVATE).edit()
             pref.putString("profileId", user.getUid())
             pref.apply()
 
             (mContext as FragmentActivity).supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, ProfileFragment()).commit()
-        } }
+        }
 
 
         //follow button

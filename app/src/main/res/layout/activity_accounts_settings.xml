@@ -33,15 +33,15 @@
                     android:layout_width="20dp"
                     android:layout_height="30dp"
                     android:layout_alignParentStart="true"
-                    android:src="@drawable/close"/>
+                    android:src="@drawable/close" />
 
                 <ImageView
                     android:id="@+id/save_info_profile_btn"
-                    android:layout_marginRight="15dp"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_alignParentEnd="true"
-                    android:src="@drawable/save_edited_info"/>
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/save_edited_info" />
 
             </RelativeLayout>
 
@@ -63,13 +63,13 @@
         android:id="@+id/change_image_text_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Change Image"
+        android:layout_below="@+id/profile_image_view_frag"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
-        android:textStyle="bold"
-        android:textSize="16dp"
+        android:text="Change Image"
         android:textColor="@color/colorPrimary"
-        android:layout_below="@+id/profile_image_view_frag"/>
+        android:textSize="16dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/full_name_profile_frag"
@@ -77,10 +77,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/change_image_text_btn"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:hint="Fullname"
         android:inputType="text"
-        android:hint="Full Name"
 
         />
 
@@ -90,10 +90,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/full_name_profile_frag"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:hint="Username"
         android:inputType="text"
-        android:hint="UserName"
 
         />
 
@@ -104,10 +104,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/username_profile_frag"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="16dp"
-        android:inputType="text"
+        android:layout_marginRight="20dp"
         android:hint="Bio"
+        android:inputType="text"
 
         />
 
